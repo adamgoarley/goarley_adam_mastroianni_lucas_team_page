@@ -75,13 +75,12 @@ p, li
   font-size: 20px;
 }
 
-
-#buttonId
+#inputBioAdam
 {
   height: 30px;
   border-radius: 5px;
   width: 130px;
-  margin-left: 675px;
+  margin-left: px;
   margin-top: 50px;
   background-color: #fff;
 }
