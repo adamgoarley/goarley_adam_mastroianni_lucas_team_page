@@ -32,3 +32,26 @@ console.log("Java Script Linked Up");
                // display array data
                document.getElementById('pText').innerHTML = pval;
            }
+
+
+           // create an array 2
+                      var lucasArr = ["Lucas" + "url(images/adam_headshot_web.jpg)" + "My name is Adam Goarley. I'm an 18 years old born in London, Ontario but raised in the small town of Ilderton, Ontario. I run a wedding photography business that I started when I was 14. I mostly just do photos of weddings but have just started also doing video. I also really love sailing! I have been sailing for over 8 years and have sailed all over ontario and just recently completed my first professional sailing event in Saint Barths."];
+
+                      function pushData2()
+                      {
+                          // get value from the input text
+                          var inputText2 = document.getElementById('inputBioLucas').value;
+
+                          // append data to the array
+                          lucasArr.push(inputBioLucas);
+
+                          var pval = "";
+
+                          for(i = 0; i < lucasArr.length; i++)
+                          {
+                              pval = pval + lucasArr[i] + "<br/>";
+                          }
+
+                          // display array data
+                          document.getElementById('text').innerHTML = pval;
+                      }

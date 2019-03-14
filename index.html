@@ -13,20 +13,31 @@
 
 <body>
 <section id="siteContainer">
-  <section id="adamBio">
 
-    <input type="text" name="text" id="inputBioAdam"/>
+  <h1 id="heading">Our Team</h1>
 
+  <section id="bios">
+
+    <section id="adamBio">
+      <div type="text" name="text" id="inputBioAdam"><p id="pText"></p></div>
+    </section>
+
+    <section id="lucasBio">
+        <div type="text" name="text" id="inputBioLucas"><p id="text"></p></div>
+    </section>
 
   </section>
+
+
+
+<section id="buttons">
+
+  <button id="button1" onclick="pushData();">Click To View Adams Bio</button>
+  <button id="button2" onclick="pushData2();">Click To View Lucas Bio</button>
+
 </section>
 
-
-
-<button onclick="pushData();">Click To View Adams Bio </button>
-  <p id="pText"></p>
-
-
+</section>
 
 <!--Load js at bottom-->
 	<script src="js/main.js"></script>
