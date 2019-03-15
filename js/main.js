@@ -18,6 +18,7 @@ console.log("Java Script Linked Up");
            {
                // get value from the input text
                var inputText = document.getElementById('inputBioAdam').value;
+               var x = document.getElementById("adamPhoto");
 
                // append data to the array
                myArr.push(inputBioAdam);
@@ -29,9 +30,18 @@ console.log("Java Script Linked Up");
                    pval = pval + myArr[i] + "<br/>";
                }
 
+
+               if (x.style.display === "none") {
+               x.style.display = "block";
+                } else {
+               x.style.display = "none";
+
                // display array data
                document.getElementById('pText').innerHTML = pval;
            }
+        }
+
+
 
 
            // create an array 2
