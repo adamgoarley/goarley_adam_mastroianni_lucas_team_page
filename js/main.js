@@ -35,7 +35,7 @@ console.log("Java Script Linked Up");
 
 
            // create an array 2
-                      var lucasArr = ["Lucas" + "url(images/adam_headshot_web.jpg)" + "My name is Adam Goarley. I'm an 18 years old born in London, Ontario but raised in the small town of Ilderton, Ontario. I run a wedding photography business that I started when I was 14. I mostly just do photos of weddings but have just started also doing video. I also really love sailing! I have been sailing for over 8 years and have sailed all over ontario and just recently completed my first professional sailing event in Saint Barths."];
+                      var lucasArr = ["Lucas" + "" + "My name is Lucas Mastroianni. I am 20 years old born in London, Ontario, but from a small town just outside of London, called Dorchester. I love sports - especially hockey. I have been playing since I was four years-old and I am also a big fan of the Toronto Maple Leafs. In my spare time, I like listening to music and playing guitar. I just recently started, but would love to be able to play old rock tunes in the future. That's all for now, thanks for reading! "];
 
                       function pushData2()
                       {
