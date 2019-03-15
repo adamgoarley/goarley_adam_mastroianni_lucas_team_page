@@ -42,7 +42,7 @@ p, li
 
 #adamBio, #lucasBio
 {
-  margin-top: 200px;
+  margin-top: 90px;
   width: 500px;
   height: 700px;
   display: flex;
@@ -93,4 +93,10 @@ p, li
   font-size: 20px;
   font-family: 'Cormorant Garamond', serif;
   color: #00D7FF;
+}
+
+#heading
+{
+  text-align: center;
+  margin-top: 50px;
 }
