@@ -45,23 +45,32 @@ console.log("Java Script Linked Up");
 
 
            // create an array 2
-                      var lucasArr = ["Lucas" + "" + "My name is Lucas Mastroianni. I am 20 years old born in London, Ontario, but from a small town just outside of London, called Dorchester. I love sports - especially hockey. I have been playing since I was four years-old and I am also a big fan of the Toronto Maple Leafs. In my spare time, I like listening to music and playing guitar. I just recently started, but would love to be able to play old rock tunes in the future. That's all for now, thanks for reading! "];
+           var lucasArr = ["Lucas" + " " + "My name is Lucas Mastroianni. I am 20 years old born in London, Ontario, but from a small town just outside of London, called Dorchester. I love sports - especially hockey. I have been playing since I was four years-old and I am also a big fan of the Toronto Maple Leafs. In my spare time, I like listening to music and playing guitar. I just recently started, but would love to be able to play old rock tunes in the future. That's all for now, thanks for reading! "];
 
-                      function pushData2()
-                      {
+           function pushData2()
+           {
                           // get value from the input text
-                          var inputText2 = document.getElementById('inputBioLucas').value;
+                 var inputText2 = document.getElementById('inputBioLucas').value;
+                 var x = document.getElementById("lucasPhoto");
+
 
                           // append data to the array
-                          lucasArr.push(inputBioLucas);
+                  lucasArr.push(inputBioLucas);
 
-                          var pval = "";
+                  var pval = "";
 
-                          for(i = 0; i < lucasArr.length; i++)
-                          {
-                              pval = pval + lucasArr[i] + "<br/>";
-                          }
+                  for(i = 0; i < lucasArr.length; i++)
+                   {
+                    pval = pval + lucasArr[i] + "<br/>";
+                   }
+
+                  if (x.style.display === "none") {
+                  x.style.display = "block";
+                  } else {
+                  x.style.display = "none";
 
                           // display array data
-                          document.getElementById('text').innerHTML = pval;
+                  document.getElementById('text').innerHTML = pval;
+                }
+
                       }
